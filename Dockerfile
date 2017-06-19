@@ -3,7 +3,7 @@ MAINTAINER DUONG Dinh Cuong <cuong3ihut@gmail.com>
 
 COPY . /node-file-manager
 WORKDIR /node-file-manager
-VOLUME  /usr/share/data
+VOLUME  /var/www/html/uploads
 
 # bower requires this configuration parameter to allow bower install using root.
 RUN echo '{ "allow_root": true }'>.bowerrc
